@@ -21,4 +21,34 @@ https://sys-guard.com/post-16250/
  
  
  cd /var/www/html/  
- sudo curl  
+ sudo curl https://raw.githubusercontent.com/HaHatake/tesstRedis/master/rankingtest.php  
+
+php -f rankingtest.php  
+>output
+ <!DOCTYPE html>
+<html>
+<body>
+array(10) {
+  ["Mary"]=>
+  float(55)
+  ["John"]=>
+  float(20)
+  ["Yuu"]=>
+  float(15)
+  ["Emily"]=>
+  float(15)
+  ["Ken"]=>
+  float(12)
+  ["Tarou"]=>
+  float(6)
+  ["Hanako"]=>
+  float(6)
+  ["Tanaka"]=>
+  float(3)
+  ["Natary"]=>
+  float(2)
+  ["Sato"]=>
+  float(1)
+}
+<hr/>Mary=1<br/>John=2<br/>Yuu=3<br/>Emily=3<br/>Ken=5<br/>Tarou=6<br/>Hanako=6<br/>Tanaka=8<br/>Natary=9<br/>Sato=10<br/></body>
+</html>
