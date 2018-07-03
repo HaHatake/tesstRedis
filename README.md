@@ -52,3 +52,7 @@ array(10) {
 }
 <hr/>Mary=1<br/>John=2<br/>Yuu=3<br/>Emily=3<br/>Ken=5<br/>Tarou=6<br/>Hanako=6<br/>Tanaka=8<br/>Natary=9<br/>Sato=10<br/></body>
 </html>
+
+#check
+This program add to redis any order scores.  
+redis can output sort score.  
