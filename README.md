@@ -12,10 +12,13 @@ https://sys-guard.com/post-16250/
  sudo yum -y install php  
  sudo yum -y install php-pecl-redis --enablerepo=epel  
  sudo vi /etc/php.ini  
-  > extension=redis.so  
+  add this word :extension=redis.so  
  php -m | grep redis  
- output   
-  redis  
-  
+ output : redis    
+ 
+ systemctl start httpd
+ systemctl start redis  
+ 
+ 
  cd /var/www/html/  
- curl  
+ sudo curl  
